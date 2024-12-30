@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.header {
+  height: 50px;
+  position: relative;
+}
+.header .logo {
+  position: absolute;
+  left: 10px;
+  top: 20%;
+  border: 2px solid black;
+}
+.header .search-bar {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+}
+.header .search-bar input {
+  width: 200px;
+}
+
+.top-table {
+  width: 100%;
+  text-align: center;
+}
+.top-table .top {
+  border: none;
+  height: 50px;
+  line-height: 50px;
+}
+
+.left {
+  width: 200px;
+  vertical-align: top;
+  height: 100%;
+}
+.left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.left ul li {
+  padding: 10px 0;
+}
+
+.center {
+  width: calc(100% - 350px);
+  vertical-align: top;
+}
+.center img {
+  width: 80%;
+  height: 60%;
+}
+
+.main-table {
+  border: none;
+  colspan: 4;
+  text-align: center;
+}
+
+.right {
+  width: 150px;
+  vertical-align: top;
+  height: 100%;
+}
+
+#search-button {
+  margin-right: 18px;
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles1.css.map */
